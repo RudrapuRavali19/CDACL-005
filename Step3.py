@@ -1,28 +1,23 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
-df = pd.read_csv("purchase_pattern_analytics")
+df = pd.read_csv('purchase_pattern_analytics_39k.csv')
 
-print("--- KEY STATISTICS ---")
+plt.figure(figsize=(10,6))
+quantity_counts = df['Quantity'].value_counts().sort_index()
 
-print("\n1. QUANTITY Stats:")
-print(f" Mean (Average): {df['Quantity'].mean():.2f}")
-print(f" Median (Middle): {df['Quantity'].median()}")
-print(f" Mode (Most repeated): {df['Quantity'].mode()[0]}")
-print(f" Min: {df['Quantity'].min()} Max: {df['Quantity'].max()}")
+plt.bar(quantity_counts.index.astype(str), quantity_counts.values, color='#FF9800', edgecolor='black', width=0.6)
 
-print("\n2. UNIT PRICE Stats:")
-print(f" Mean (Average Price): {df['UnitPrice'].mean():.2f}")
-print(f" Median: {df['UnitPrice'].median():.2f}")
-print(f" Mode: {df['UnitPrice'].mode()[0]}")
-print(f" Min: {df['UnitPrice'].min()} Max: {df['UnitPrice'].max()}")
+plt.title('Graph 2: Quantity Distribution', fontsize=14, fontweight='bold')
+plt.xlabel('Quantity')
+plt.ylabel('Frequency')
+plt.grid(axis='y', alpha=0.3)
+for i, v in enumerate(quantity_counts.values):
+    plt.text(i, v + 500, str(v), ha='center', fontsize=10, fontweight='bold')
 
-df['TotalAmount'] = df['Quantity'] * df['UnitPrice']
-print("\n3. TOTAL AMOUNT (Quantity*Price) Stats:")
-print(f" Mean: {df['TotalAmount'].mean():.2f}")
-print(f" Median: {df['TotalAmount'].median():.2f}")
-print(f" Highest Bill Item: {df['TotalAmount'].max():.2f}")
+plt.tight_layout()
+plt.savefig('graph2_quantity.png', dpi=300, bbox_inches='tight')
+plt.close()
 
-print(f"\n4. Std Dev - Quantity: {df['Quantity'].std():.2f}")
-print(f" Std Dev - Price: {df['UnitPrice'].std():.2f}")
-
-print("\n--- STATS DONE ---")
+print("Graph2 FIXED - Generated graph2_quantity.png")
+print(quantity_counts)

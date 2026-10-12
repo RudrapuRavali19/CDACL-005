@@ -50,46 +50,46 @@ support,itemsets_str,length
 0.09651282051282051,Toothbrush,1
 0.09633333333333334,Toothpaste,1
 0.09305128205128205,Yogurt,1
-0.07158974358974358,"Bananas, Apples",2
-0.07151282051282051,"Oranges, Apples",2
-0.07138461538461538,"Yogurt, Apples",2
+0.07158974358974358,"Apples, Bananas",2
+0.07151282051282051,"Apples, Oranges",2
+0.07138461538461538,"Apples, Yogurt",2
 0.07861538461538461,"Atta, Cooking Oil",2
 0.15023076923076922,"Atta, Onions",2
-0.07512820512820513,"Atta, Paneer",2
-0.0736923076923077,"Atta, Potatoes",2
-0.077,"Atta, Tomatoes",2
-0.07148717948717949,"Oranges, Bananas",2
-0.07143589743589744,"Yogurt, Bananas",2
-0.0732051282051282,"Coffee, Biscuits",2
-0.14535897435897435,"Biscuits, Milk",2
-0.14256410256410257,"Biscuits, Sugar",2
+0.07512820512820513,"Paneer, Atta",2
+0.0736923076923077,"Potatoes, Atta",2
+0.077,"Tomatoes, Atta",2
+0.07148717948717949,"Bananas, Oranges",2
+0.07143589743589744,"Bananas, Yogurt",2
+0.0732051282051282,"Biscuits, Coffee",2
+0.14535897435897435,"Milk, Biscuits",2
+0.14256410256410257,"Sugar, Biscuits",2
 0.07292307692307692,"Tea, Biscuits",2
 0.07243589743589744,"Butter, Bread",2
-0.07266666666666667,"Bread, Eggs",2
-0.07674358974358975,"Bread, Milk",2
-0.07251282051282051,"Butter, Eggs",2
-0.07807692307692307,"Butter, Milk",2
+0.07266666666666667,"Eggs, Bread",2
+0.07674358974358975,"Milk, Bread",2
+0.07251282051282051,"Eggs, Butter",2
+0.07807692307692307,"Milk, Butter",2
 0.06994871794871795,"Ketchup, Cheese",2
 0.07020512820512821,"Cheese, Pasta",2
 0.07182051282051283,"Cheese, Tomato Sauce",2
-0.0757948717948718,"Cooking Oil, Chicken",2
-0.07733333333333334,"Onions, Chicken",2
+0.0757948717948718,"Chicken, Cooking Oil",2
+0.07733333333333334,"Chicken, Onions",2
 0.07205128205128206,"Tomatoes, Chicken",2
 0.07146153846153847,"Noodles, Chips",2
 0.07148717948717949,"Soft Drinks, Chips",2
 0.07274358974358974,"Tomato Sauce, Chips",2
-0.07671794871794872,"Coffee, Milk",2
-0.07312820512820513,"Coffee, Sugar",2
+0.07671794871794872,"Milk, Coffee",2
+0.07312820512820513,"Sugar, Coffee",2
 0.07605128205128205,"Dal, Cooking Oil",2
-0.07825641025641025,"Cooking Oil, Fish",2
+0.07825641025641025,"Fish, Cooking Oil",2
 0.28712820512820514,"Onions, Cooking Oil",2
-0.07682051282051282,"Cooking Oil, Potatoes",2
-0.1476923076923077,"Rice, Cooking Oil",2
+0.07682051282051282,"Potatoes, Cooking Oil",2
+0.1476923076923077,"Cooking Oil, Rice",2
 0.07602564102564102,"Salt, Cooking Oil",2
 0.07787179487179487,"Tomatoes, Cooking Oil",2
-0.07023076923076924,"Corn Flakes, Honey",2
-0.0748974358974359,"Corn Flakes, Milk",2
-0.07028205128205128,"Corn Flakes, Oats",2
+0.07023076923076924,"Honey, Corn Flakes",2
+0.0748974358974359,"Milk, Corn Flakes",2
+0.07028205128205128,"Oats, Corn Flakes",2
 0.07723076923076923,"Onions, Dal",2
 0.07292307692307692,"Dal, Rice",2
 0.07146153846153847,"Dal, Salt",2
@@ -97,94 +97,94 @@ support,itemsets_str,length
 0.07164102564102565,"Floor Cleaner, Detergent",2
 0.07153846153846154,"Tissue, Detergent",2
 0.07156410256410256,"Floor Cleaner, Dishwash",2
-0.07166666666666667,"Dishwash, Tissue",2
-0.07743589743589743,"Eggs, Milk",2
+0.07166666666666667,"Tissue, Dishwash",2
+0.07743589743589743,"Milk, Eggs",2
 0.07984615384615384,"Onions, Fish",2
-0.07433333333333333,"Rice, Fish",2
+0.07433333333333333,"Fish, Rice",2
 0.07164102564102565,"Floor Cleaner, Tissue",2
-0.07446153846153847,"Honey, Milk",2
-0.07023076923076924,"Honey, Oats",2
+0.07446153846153847,"Milk, Honey",2
+0.07023076923076924,"Oats, Honey",2
 0.07028205128205128,"Ketchup, Pasta",2
 0.07215384615384615,"Ketchup, Tomato Sauce",2
-0.07546153846153845,"Oats, Milk",2
-0.1458205128205128,"Sugar, Milk",2
+0.07546153846153845,"Milk, Oats",2
+0.1458205128205128,"Milk, Sugar",2
 0.07682051282051282,"Tea, Milk",2
-0.0714102564102564,"Soft Drinks, Noodles",2
+0.0714102564102564,"Noodles, Soft Drinks",2
 0.07302564102564102,"Noodles, Tomato Sauce",2
-0.08051282051282051,"Onions, Paneer",2
-0.07894871794871795,"Onions, Potatoes",2
+0.08051282051282051,"Paneer, Onions",2
+0.07894871794871795,"Potatoes, Onions",2
 0.1495128205128205,"Onions, Rice",2
 0.07802564102564102,"Onions, Salt",2
-0.14935897435897436,"Onions, Tomatoes",2
-0.07176923076923077,"Yogurt, Oranges",2
-0.07535897435897436,"Paneer, Tomatoes",2
+0.14935897435897436,"Tomatoes, Onions",2
+0.07176923076923077,"Oranges, Yogurt",2
+0.07535897435897436,"Tomatoes, Paneer",2
 0.07182051282051283,"Tomato Sauce, Pasta",2
 0.07315384615384615,"Salt, Rice",2
-0.07433333333333333,"Soap, Shampoo",2
-0.0744102564102564,"Toothbrush, Shampoo",2
-0.07448717948717949,"Shampoo, Toothpaste",2
+0.07433333333333333,"Shampoo, Soap",2
+0.0744102564102564,"Shampoo, Toothbrush",2
+0.07448717948717949,"Toothpaste, Shampoo",2
 0.07456410256410256,"Soap, Toothbrush",2
-0.07438461538461538,"Soap, Toothpaste",2
-0.07294871794871795,"Soft Drinks, Tomato Sauce",2
+0.07438461538461538,"Toothpaste, Soap",2
+0.07294871794871795,"Tomato Sauce, Soft Drinks",2
 0.0731025641025641,"Tea, Sugar",2
-0.07443589743589743,"Toothbrush, Toothpaste",2
-0.07112820512820513,"Bananas, Oranges, Apples",3
-0.07115384615384615,"Bananas, Yogurt, Apples",3
-0.07112820512820513,"Yogurt, Oranges, Apples",3
-0.07838461538461539,"Atta, Onions, Cooking Oil",3
-0.0714102564102564,"Atta, Cooking Oil, Potatoes",3
-0.07494871794871795,"Atta, Onions, Paneer",3
-0.07353846153846154,"Atta, Onions, Potatoes",3
-0.07684615384615384,"Atta, Onions, Tomatoes",3
-0.07338461538461538,"Atta, Paneer, Tomatoes",3
-0.07112820512820513,"Yogurt, Oranges, Bananas",3
-0.07294871794871795,"Coffee, Biscuits, Milk",3
-0.07292307692307692,"Biscuits, Coffee, Sugar",3
-0.14217948717948717,"Biscuits, Sugar, Milk",3
-0.07279487179487179,"Tea, Biscuits, Milk",3
-0.0726923076923077,"Tea, Biscuits, Sugar",3
-0.07212820512820513,"Butter, Bread, Eggs",3
-0.07215384615384615,"Butter, Bread, Milk",3
-0.07223076923076924,"Bread, Eggs, Milk",3
-0.07223076923076924,"Butter, Eggs, Milk",3
+0.07443589743589743,"Toothpaste, Toothbrush",2
+0.07112820512820513,"Apples, Bananas, Oranges",3
+0.07115384615384615,"Apples, Bananas, Yogurt",3
+0.07112820512820513,"Apples, Oranges, Yogurt",3
+0.07838461538461539,"Atta, Cooking Oil, Onions",3
+0.0714102564102564,"Potatoes, Atta, Cooking Oil",3
+0.07494871794871795,"Paneer, Onions, Atta",3
+0.07353846153846154,"Potatoes, Atta, Onions",3
+0.07684615384615384,"Tomatoes, Atta, Onions",3
+0.07338461538461538,"Tomatoes, Paneer, Atta",3
+0.07112820512820513,"Bananas, Oranges, Yogurt",3
+0.07294871794871795,"Milk, Biscuits, Coffee",3
+0.07292307692307692,"Biscuits, Sugar, Coffee",3
+0.14217948717948717,"Milk, Sugar, Biscuits",3
+0.07279487179487179,"Tea, Milk, Biscuits",3
+0.0726923076923077,"Tea, Sugar, Biscuits",3
+0.07212820512820513,"Eggs, Butter, Bread",3
+0.07215384615384615,"Milk, Butter, Bread",3
+0.07223076923076924,"Milk, Eggs, Bread",3
+0.07223076923076924,"Milk, Eggs, Butter",3
 0.06976923076923076,"Ketchup, Cheese, Pasta",3
 0.0697948717948718,"Ketchup, Cheese, Tomato Sauce",3
-0.06976923076923076,"Tomato Sauce, Cheese, Pasta",3
-0.07548717948717949,"Onions, Cooking Oil, Chicken",3
-0.0701025641025641,"Tomatoes, Cooking Oil, Chicken",3
-0.07174358974358974,"Onions, Tomatoes, Chicken",3
-0.07107692307692308,"Soft Drinks, Noodles, Chips",3
-0.07112820512820513,"Tomato Sauce, Noodles, Chips",3
+0.06976923076923076,"Cheese, Pasta, Tomato Sauce",3
+0.07548717948717949,"Chicken, Onions, Cooking Oil",3
+0.0701025641025641,"Tomatoes, Chicken, Cooking Oil",3
+0.07174358974358974,"Tomatoes, Chicken, Onions",3
+0.07107692307692308,"Noodles, Soft Drinks, Chips",3
+0.07112820512820513,"Noodles, Tomato Sauce, Chips",3
 0.0711025641025641,"Tomato Sauce, Soft Drinks, Chips",3
-0.0728974358974359,"Coffee, Sugar, Milk",3
-0.07558974358974359,"Onions, Dal, Cooking Oil",3
-0.07271794871794872,"Rice, Dal, Cooking Oil",3
-0.07123076923076924,"Dal, Salt, Cooking Oil",3
-0.07787179487179487,"Onions, Cooking Oil, Fish",3
-0.07412820512820513,"Rice, Cooking Oil, Fish",3
-0.07658974358974359,"Onions, Cooking Oil, Potatoes",3
-0.14753846153846153,"Onions, Rice, Cooking Oil",3
-0.07571794871794872,"Onions, Salt, Cooking Oil",3
+0.0728974358974359,"Milk, Sugar, Coffee",3
+0.07558974358974359,"Dal, Onions, Cooking Oil",3
+0.07271794871794872,"Dal, Cooking Oil, Rice",3
+0.07123076923076924,"Salt, Dal, Cooking Oil",3
+0.07787179487179487,"Onions, Fish, Cooking Oil",3
+0.07412820512820513,"Fish, Cooking Oil, Rice",3
+0.07658974358974359,"Potatoes, Onions, Cooking Oil",3
+0.14753846153846153,"Onions, Cooking Oil, Rice",3
+0.07571794871794872,"Salt, Onions, Cooking Oil",3
 0.07764102564102564,"Tomatoes, Onions, Cooking Oil",3
-0.07287179487179488,"Rice, Salt, Cooking Oil",3
-0.07002564102564103,"Corn Flakes, Honey, Milk",3
-0.06997435897435897,"Corn Flakes, Honey, Oats",3
-0.07005128205128205,"Corn Flakes, Oats, Milk",3
+0.07287179487179488,"Salt, Cooking Oil, Rice",3
+0.07002564102564103,"Milk, Honey, Corn Flakes",3
+0.06997435897435897,"Oats, Honey, Corn Flakes",3
+0.07005128205128205,"Milk, Oats, Corn Flakes",3
 0.07274358974358974,"Onions, Dal, Rice",3
-0.07125641025641026,"Onions, Dal, Salt",3
+0.07125641025641026,"Dal, Onions, Salt",3
 0.0712051282051282,"Dal, Salt, Rice",3
-0.07125641025641026,"Floor Cleaner, Dishwash, Detergent",3
-0.07125641025641026,"Tissue, Dishwash, Detergent",3
+0.07125641025641026,"Dishwash, Floor Cleaner, Detergent",3
+0.07125641025641026,"Dishwash, Tissue, Detergent",3
 0.07125641025641026,"Floor Cleaner, Tissue, Detergent",3
-0.07125641025641026,"Floor Cleaner, Dishwash, Tissue",3
-0.07415384615384615,"Rice, Onions, Fish",3
-0.07,"Honey, Oats, Milk",3
-0.06982051282051283,"Ketchup, Pasta, Tomato Sauce",3
+0.07125641025641026,"Floor Cleaner, Tissue, Dishwash",3
+0.07415384615384615,"Onions, Fish, Rice",3
+0.07,"Milk, Oats, Honey",3
+0.06982051282051283,"Ketchup, Tomato Sauce, Pasta",3
 0.0726923076923077,"Tea, Sugar, Milk",3
-0.0711025641025641,"Soft Drinks, Noodles, Tomato Sauce",3
-0.07515384615384615,"Onions, Paneer, Tomatoes",3
+0.0711025641025641,"Noodles, Tomato Sauce, Soft Drinks",3
+0.07515384615384615,"Tomatoes, Paneer, Onions",3
 0.0728974358974359,"Onions, Salt, Rice",3
-0.07405128205128206,"Soap, Toothbrush, Shampoo",3
-0.07405128205128206,"Soap, Shampoo, Toothpaste",3
-0.07407692307692308,"Toothbrush, Shampoo, Toothpaste",3
-0.07405128205128206,"Soap, Toothbrush, Toothpaste",3
+0.07405128205128206,"Shampoo, Toothbrush, Soap",3
+0.07405128205128206,"Toothpaste, Shampoo, Soap",3
+0.07407692307692308,"Toothpaste, Shampoo, Toothbrush",3
+0.07405128205128206,"Toothpaste, Soap, Toothbrush",3
